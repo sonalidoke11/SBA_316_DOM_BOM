@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Register</title>
+</head>
+<style>
+#register{
+    padding: 20px;
+    vertical-align: bottom;
+    text-align: center;
+    color: white;
+    box-shadow: 5px 5px 10px black;
+    background-color: #355070;
+}
+
+.register form{
+    max-width: 300px;
+  margin: auto;
+  padding: 10px;
+}
+</style>
+<body>
+    <!-- Header Section of site -->
+    <header class="header">
+        <div class="logo">
+            <a href="../index.html"><img src="../images/logo.png" alt="Logo Image" class="logo"></a>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#"  style="color: white;">Gifts</a></li>
+                <li><a href="#"  style="color: white;">Bakery</a></li>
+                <li><a href="#"  style="color: white;">Food</a></li>
+                <li><a href="../pages/about.html"  style="color: white;">About</a></li>
+            </ul>
+        </nav>
+
+        <div class="get_in_touch" >
+            <a href="../pages/sign_up.html" target="_blank" style="color: white;">SignUp</a>
+            <a href="../pages/login.html" target="_blank" style="color: white;">Login</a>
+        </div>
+    </header>
+
+    <br>
+
+    <div id="register">
+        <img src="../images/giphy.gif" height="100" width="200" alt="">
+        <form> 
+            <table> 
+                    <tr> 
+                        <td> 
+                            <label for="firstName">Your name</label>
+                        </td> 
+                        <td>
+                            <input type="text" name="firstName" id="firstName" required><br><br>
+                        </td> 
+                    </tr> 
+
+                    <tr> 
+                        <td> 
+                            <label for="password">Your Password</label>
+                        </td> 
+                        <td>
+                            <input type="password" name="password" id="password"><br><br>
+                        </td> 
+                    </tr>
+
+                    <tr> 
+                        <td> 
+                            <label for="confirm_password">Confirm your Password</label>
+                        </td> 
+                        <td>
+                            <input type="password" name="confirm_password" id="confirm_password"><br><br>
+                        </td> 
+                    </tr>
+        
+                    <tr> 
+                        <td> 
+                            <label for="birth_date">Birthdate</label>
+                        </td> 
+                        <td>
+                            <input type="date" name="birth_date" id="birth_date"><br><br>
+                        </td> 
+                    </tr>
+                    
+                    <tr> 
+                        <td> 
+                            <label for="gender">Gender</label>
+                        </td> 
+                        <td>
+                        <input type="radio" id="male" name="male" value="Male">
+                        <label for="html">Male</label>
+                        <input type="radio" id="female" name="female" value="Female">
+                        <label for="css">Female</label><br><br>
+                        </td> 
+                    </tr>
+                    
+                    <tr> 
+                        <td> 
+                            <label for="security_quetion">Security Question</label>
+                        </td> 
+                        <td>
+                            <select name="security_quetion" id="security_quetion">
+                                <option value="what is your birth year">What is your birth year?</option>
+                                <option value="what is your pet's name">what is your pet's name?</option>
+                                <option value="what is your birsth place">What is your birsth place</option>
+                            </select><br><br>
+                        </td> 
+                    </tr>
+                    
+                
+                    <tr> 
+                        <td> 
+                            <label for="security_answer">Security Answer</label>
+                        </td> 
+                        <td>
+                            <input type="password" name="security_answer" id="security_answer"><br><br>
+                        </td> 
+                    </tr>    
+                    
+                    <tr> 
+                        <td colspan="2"> 
+                            <input type="button" value="Register Now" style="padding:5px; font-size:20px; background-color: #fb8500;">
+                        </td>  
+                    </tr>
+
+                    <tr> 
+                        <td colspan="2"> 
+                            <p>Already have an account? <a href="../pages/login.html" style="color : #fb8500;">Sign in</a>.</p>
+                        </td>  
+                    </tr>            
+            </table>
+        </form> 
+    </div>
+
+    <br>
+
+    <footer>
+        <div>
+            <p>Copyright @ Lorem ipsum dolor sit amet consectetur 2024.</p>
+        </div>
+        <div class="get_in_touch">
+            <img src="../images/Fb_logo.png" alt="Fb Link Image" class="social_icons">
+            <img src="../images/instagram_logo.jpg" alt="Instagram Link Image" class="social_icons">
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Login</title>
+</head>
+<style>
+.login_page{
+    text-align: center;
+}
+
+.login{
+    padding: 20px;
+    vertical-align: bottom;
+    text-align: center;
+    color: white;
+    background-color: #355070;
+    box-shadow: 5px 5px 10px black;
+}
+
+
+
+::placeholder {
+  color: rgb(60, 130, 177);
+}
+</style>
+<body>
+    <!-- Header Section of site -->
+    <header class="header">
+        <div class="logo">
+            <a href="../index.html"><img src="../images/logo.png" alt="Logo Image" class="logo"></a>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#"  style="color: white;">Gifts</a></li>
+                <li><a href="#"  style="color: white;">Bakery</a></li>
+                <li><a href="#"  style="color: white;">Food</a></li>
+                <li><a href="../pages/about.html"  style="color: white;">About</a></li>
+            </ul>
+        </nav>
+
+        <div class="get_in_touch" >
+            <a href="../pages/sign_up.html" target="_blank" style="color: white;">SignUp</a>
+            <a href="../pages/login.html" target="_blank" style="color: white;">Login</a>
+        </div>
+    </header>
+
+    <br>
+
+    <div class="login_page">
+        <div class="login">
+            
+            <h2>Login</h2>
+            <br>
+            <form action="#">
+                <label for="UserName">User Name</label>
+                <input type="text" name="userName" id="UserName" placeholder ="Enter your Email" required><br><br>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder ="Enter your Password"><br><br>
+                <input type="button" value="Login" style="padding:5px; font-size:20px; background-color: #fb8500;"><br><br>
+                <p>Don't have an account yet? <a href="../pages/sign_up.html" style="color : #fb8500;">Register Here</a>.</p>
+            </form>
+        </div>
+    </div>
+
+    <br>
+
+    <footer>
+        <div>
+            <p>Copyright @ Lorem ipsum dolor sit amet consectetur 2024.</p>
+        </div>
+        <div class="get_in_touch">
+            <img src="../images/Fb_logo.png" alt="Fb Link Image" class="social_icons">
+            <img src="../images/instagram_logo.jpg" alt="Instagram Link Image" class="social_icons">
+        </div>
+    </footer>
+</body>
+</html>

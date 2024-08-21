@@ -1,0 +1,128 @@
+body{
+    width: 21cm;
+    margin: 0 auto;
+    background-color: white;
+    padding: 5px;
+}
+
+:root{
+    background-color: #f4a261;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #023047;
+}
+
+.logo{
+    height: 10vh;
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+}
+
+.navigation ul li {
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.get_in_touch a{
+    padding: 40px 0px;
+    margin-bottom: 10px;
+}
+
+.social_icons{
+    height:30px;
+}
+
+.banner{
+    background-image: url(../images/banner_background.jpg);
+    background-repeat: no-repeat;
+    height:250px;
+    padding: 40px;
+    text-align: right;
+}
+
+.banner>h1{
+    font-size:50px;
+}
+
+.heading{
+    text-align: center;
+}
+
+.item_container{
+    display: flex;
+}
+
+.quick_link_items_row{
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.quick_link_items_row img{
+    transition-duration: 5s;
+}
+
+.quick_link_items_row img:hover{
+    transform:rotate(360deg);
+}
+
+.quick_link_items_row p{
+    padding: 10px;
+}
+
+.categories_row{
+    padding:8px
+}
+
+.location_row{
+    padding:5px;
+    margin:auto;
+    text-align: center;
+}
+
+.location{
+    background-color: #ffb703;
+    border-radius: 10px;
+    height: 100px;
+    width: auto;
+    padding:10px;
+    color:#023047;
+    transition-property: font-size;
+    /* transition-duration: 5s; */
+}
+.location:hover{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+footer{
+    padding: 10px;
+    background-color: #023047;
+    color:white;
+    font-size: 12px;
+    text-align:center;
+}
+
+
+
+/* Sign Up And Login Page Css */
+
+#register >h2, .login >h2{
+    color:black;
+}
+
+
+
+
