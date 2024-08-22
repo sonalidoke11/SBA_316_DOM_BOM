@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="js/dom-bom.js" defer></script>
     <title>Shopping Mart</title>
     <link rel="icon" type="image/x-icon" href="../images/favicon.png">
 </head>
@@ -33,26 +34,27 @@
     <section class="banner">
         <h1>Super Discount</h1>
         <h3>Buy Everythig You Need</h3>
+        <button id="theme_color">Click to change theme color</button>
     </section>
 
     <div class="heading">
         <h1>Quick Links</h1>
     </div>
-    <div class="item_container">
+    <div class="item_container" >
         <div class="quick_link_items_row">
-            <img src="images/gifts1.jpg" height="200px" width="400px" alt="gift image"/>
+            <img src="images/gifts1.jpg" height="150px" width="300px" alt="gift image" onclick="openBox()"/>
         </div>
         <div class="quick_link_items_row">
             <p><strong>Deals Of the Day!</strong> <br><hr>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
         </div>
     </div>
     <br><br>
-    <div class="item_container">
+    <div class="item_container" >
         <div class="quick_link_items_row">
             <p><strong>Featured Items!</strong> <br><hr>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
         </div>
         <div class="quick_link_items_row">
-            <img src="images/grocery1.jpg" height="200px" width="400px" alt="grocery image"/>
+            <img src="images/grocery1.jpg" height="150px" width="300px" alt="grocery image"/>
             
         </div>   
     </div>
@@ -63,14 +65,23 @@
         <h1>Categories</h1>
     </div>
     <div class="item_container">
-        <div class="categories_row">
-            <img src="images/gifts.jpg" height="150px" width="250px" tooltip="Gifts"/>
+        <div class="categories_row" id="category_gift">
+            
+            <img src="images/gifts.jpg" height="150px" width="250px" tooltip="Gifts" id ="quickLinkItemsImages"/>
+            <!-- <h2>Gifts</h2> -->
+
         </div>
-        <div class="categories_row">
+        <div class="categories_row" id="category_Bakery">
+            
             <img src="images/bakery.jpg" height="150px" width="250px"/>
+            <!-- <h2>Bakery</h2> -->
+
         </div>
-        <div class="categories_row">
+        <div class="categories_row" id="category_food">
+            
             <img src="images/food.jpg" height="150px" width="250px"/>
+            <!-- <h2>Food</h2> -->
+
         </div>
     </div>
 
