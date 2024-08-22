@@ -67,3 +67,17 @@ function openBox(){
 giftImage.addEventListener('click', openBox);
  
 
+
+  
+  // adding more menu links
+  const ul = document.body
+  .appendChild(document.createElement("div"))
+  .appendChild(document.createElement("ul"));
+
+for (let i = 0; i < 3; i++) {
+  ol.appendChild(document.createElement("li"));
+  ul.appendChild(document.createElement("li")).innerHTML="<p class='color'> Random text</p>";
+  ul.appendChild(document.createElement("p"));
+}
+
+  
