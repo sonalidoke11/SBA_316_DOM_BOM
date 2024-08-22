@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/validation.js" defer></script>
     <title>Login</title>
 </head>
 <style>
@@ -54,12 +55,15 @@
             
             <h2>Login</h2>
             <br>
-            <form action="#">
-                <label for="UserName">User Name</label>
-                <input type="text" name="userName" id="UserName" placeholder ="Enter your Email" required><br><br>
+            <form action=""
+            name="myForm"
+            method="POST"
+            id="myForm">
+                <label for="name">User Name</label>
+                <input type="text" name="name" id="name" placeholder ="Enter your Email" required><br><br>
                 <label for="password">Password</label>
                 <input type="password" name="password" id="password" placeholder ="Enter your Password"><br><br>
-                <input type="button" value="Login" style="padding:5px; font-size:20px; background-color: #fb8500;"><br><br>
+                <input type="submit" value="Login" style="padding:5px; font-size:20px; background-color: #fb8500;"><br><br>
                 <p>Don't have an account yet? <a href="../pages/sign_up.html" style="color : #fb8500;">Register Here</a>.</p>
             </form>
         </div>
@@ -76,5 +80,7 @@
             <img src="../images/instagram_logo.jpg" alt="Instagram Link Image" class="social_icons">
         </div>
     </footer>
+
+
 </body>
 </html>
