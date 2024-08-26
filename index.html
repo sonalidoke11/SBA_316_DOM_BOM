@@ -33,7 +33,7 @@
 
     <section class="banner">
         <h1>Super Discount</h1>
-        <h3>Buy Everythig You Need</h3>
+        <h3>Buy Everything You Need</h3>
         <button id="theme_color">Click to change theme color</button>
     </section>
 
@@ -42,7 +42,7 @@
     </div>
     <div class="item_container" >
         <div class="quick_link_items_row">
-            <img src="images/gifts1.jpg" height="150px" width="300px" alt="gift image" onclick="openBox()"/>
+            <img src="images/gifts1.jpg" height="150px" width="300px" alt="gift image"/>
         </div>
         <div class="quick_link_items_row">
             <p><strong>Deals Of the Day!</strong> <br><hr>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
@@ -66,23 +66,25 @@
     </div>
     <div class="item_container">
         <div class="categories_row" id="category_gift">
-            
             <img src="images/gifts.jpg" height="150px" width="250px" tooltip="Gifts" id ="quickLinkItemsImages"/>
             <!-- <h2>Gifts</h2> -->
-
         </div>
         <div class="categories_row" id="category_Bakery">
-            
             <img src="images/bakery.jpg" height="150px" width="250px"/>
             <!-- <h2>Bakery</h2> -->
-
         </div>
         <div class="categories_row" id="category_food">
-            
             <img src="images/food.jpg" height="150px" width="250px"/>
             <!-- <h2>Food</h2> -->
-
         </div>
+    </div>
+    <!-- Overlay for popUpBox-->
+    <div id="overlay" class="overlay"></div>
+
+    <!-- popUpBox for gifts-->
+    <div id="popup" class="popup">
+        <div id="giftsListing"></div>
+        <button id="closePopup" style="text-align:right">Close</button>
     </div>
 
     <br><hr>
